@@ -8,14 +8,13 @@ UnicrazyNail - 커스텀 네일 예약 시스템
 (https://gkssk122827-ai.github.io/unicrazynail/)
 
 ## 주요화면
+!(https://github.com/user-attachments/assets/7333533c-8906-4198-866b-0776dc0ff0f5)
 
-(https://github.com/user-attachments/assets/7333533c-8906-4198-866b-0776dc0ff0f5)
+![|메인페이지|]
+(https://github.com/user-attachments/assets/c011ba24-5aa6-4556-9832-609d51444754)
 
-|메인페이지|
-|https://github.com/user-attachments/assets/c011ba24-5aa6-4556-9832-609d51444754|
-
-|예약등록|
-|https://github.com/user-attachments/assets/3ba04136-3db7-46ef-b027-68c5d0be0793|
+![|예약등록|]
+(https://github.com/user-attachments/assets/3ba04136-3db7-46ef-b027-68c5d0be0793)
 
 |예약관리|
 |https://github.com/user-attachments/assets/671f57c3-de0e-439b-a8d6-d42b292aba42|
