@@ -21,8 +21,8 @@
 ![예약관리2](https://private-user-images.githubusercontent.com/239462926/528438469-7333533c-8906-4198-866b-0776dc0ff0f5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjYxMjIxNDIsIm5iZiI6MTc2NjEyMTg0MiwicGF0aCI6Ii8yMzk0NjI5MjYvNTI4NDM4NDY5LTczMzM1MzNjLTg5MDYtNDE5OC04NjZiLTA3NzZkYzBmZjBmNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxOVQwNTI0MDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZmNlMzYxMDg2NWZmYTgxNDkwMDQyMjdkZDFjYTdlZTRlZGRiMzlkMWNlNjJhMzY0MmZmMTU0NjYwM2U4NGEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.3D_lmCRNI3JgAqrbCV1r4BpgRrBuMlP2pVYW2hCbmko)
 
 ### 🛠 트러블 슈팅
-![트러블슈팅1](https://github.com/user-attachments/assets/7c525087-4b71-46a7-849a-180cc600e035)
+![트러블슈팅1](https://github.com/user-attachments/assets/2f7c0dbe-b76c-453d-aba3-9214befab7f6)
 ![트러블슈팅2](https://github.com/user-attachments/assets/a2dd1f23-30b6-4985-aa66-ff7904757a29)
 
 ### ✨ 마무리
-![마무리](https://github.com/user-attachments/assets/2f7c0dbe-b76c-453d-aba3-9214befab7f6)
+![마무리](https://github.com/user-attachments/assets/7c525087-4b71-46a7-849a-180cc600e035)
