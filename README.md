@@ -12,7 +12,7 @@
 
 ### 메인 페이지
 ![메인페이지](https://github.com/user-attachments/assets/7333533c-8906-4198-866b-0776dc0ff0f5)
-![메인페이지2](https://github.com/user-attachments/assets/c011ba24-5aa6-4556-9832-609d51444754)
+![메인페이지2](https://private-user-images.githubusercontent.com/239462926/528438467-3ba04136-3db7-46ef-b027-68c5d0be0793.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjYxMjIwNTUsIm5iZiI6MTc2NjEyMTc1NSwicGF0aCI6Ii8yMzk0NjI5MjYvNTI4NDM4NDY3LTNiYTA0MTM2LTNkYjctNDZlZi1iMDI3LTY4YzVkMGJlMDc5My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxOVQwNTIyMzVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NTZkY2ZkMzFjYjk5NDIzMzZiZGU4YTA2OGE5MzE3YmI0OTQzMTc5N2Y4YzE0OGI1MTBkZWUxMjExMDkyMDZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.YTFP1eg5ACHNObR9LNcbqTTw9e8TRsxLHkkPJeIaRXA)
 
 ### 예약 등록 및 관리
 ![예약등록](https://github.com/user-attachments/assets/3ba04136-3db7-46ef-b027-68c5d0be0793)
