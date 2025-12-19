@@ -9,7 +9,7 @@ UnicrazyNail - 커스텀 네일 예약 시스템
 
 ## 주요화면
 
-|https://github.com/user-attachments/assets/7333533c-8906-4198-866b-0776dc0ff0f5|
+(https://github.com/user-attachments/assets/7333533c-8906-4198-866b-0776dc0ff0f5)
 
 |메인페이지|
 |https://github.com/user-attachments/assets/c011ba24-5aa6-4556-9832-609d51444754|
