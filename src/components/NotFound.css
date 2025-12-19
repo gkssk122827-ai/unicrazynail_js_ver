@@ -1,0 +1,27 @@
+.notfound-wrap{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    color: white;
+}
+.notfound-code{
+    font-size: 60px;
+    height: calc(100vh-80px); 
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+}
+
+.notfound-message{
+    font-size: 30px;
+}
+.notfound-sub{
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slider{
+  height: 500px;
+  /*background-image: url('../public/img/KakaoTalk_20251211_162844584_02.jpg');*/
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  margin: 10px auto;
+}
+.c1 {
+  text-decoration: none;
+  text-align: center;
+  color: wheat
+}
+.c1:hover {
+  color: #B8B8CC;
+}
+
+.but {
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  margin: 10px auto;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+.but:hover{
+  color: #50164A;
+  background-color: antiquewhite;
+}
+.but2 {
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+.but2:hover{
+  color: #50164A;
+  background-color: antiquewhite;
+}
+.textverticalAlign{
+  color:white;
+  text-align: center;
+  justify-content: center;
+}
+

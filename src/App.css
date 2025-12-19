@@ -1,0 +1,208 @@
+.App{
+    min-height: 100vh;
+    background : linear-gradient(1deg, #50164A 0%, #E59EDD 90%);
+    display: flex;
+    flex-direction: column;
+    
+}
+.content-wrapper{
+    flex-grow: 1;
+}
+.Bar {
+    color: white !important;
+    font-size: 20px;
+    padding: 10px 20px !important;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #50164A;
+    margin-left: 10px;
+}
+.Bar:hover {
+    background-color: #333;
+}
+
+.App .Navbar {
+    width: 100%;
+}
+.App .menuBar {
+    display : flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.has-submenu {
+    position: relative;
+}
+.submenu{
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #50164A;
+    /* max-width: 200px; */
+    z-index: 10;
+}
+.has-submenu:hover> .submenu{
+    display: block;
+}
+.submenu li a{
+    padding: 8px 15px;
+    display: block;
+    text-decoration: none;
+}
+.submenu li a:hover {
+    background-color: #E59EDD;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.App .header {
+    display: flex;
+    justify-content: center;
+}
+
+.row-img{
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 20px;
+    background-size: cover;
+}
+.center-wrapper{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.row {
+    color: wheat;
+    width: 100%;
+    
+}
+.foo {
+    display: flex;   
+    background-Color: #664646;
+    width: 100%;
+    justify-content: center;
+    flex-grow: 1;
+}
+.footer{
+   /* background-color: #fff; */
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+.text {
+    margin: 30px auto ;
+    color: #fff;
+    /* background-color: blueviolet; */
+}
+.logo {
+    width: 280px;
+    height: 180px;
+    margin: 30px 10px 30px auto;
+    background-image: url("../public/img/KakaoTalk_20251211_162844584_01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.con{
+    color: #333;
+    font-size: 20px;
+    border-top: '1px dotted #ccc';
+    padding-top: '10px';
+}
+.faqs{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+.c2{
+    border: 1px solid #eee;
+    padding:  15px;
+    border-radius: 8px;
+    min-height: 150px;
+    max-width: 200px;
+    margin : 20px, auto;
+   
+}
+.c2:hover {
+    background-color: #E59EDD;
+}
+.introduction{
+    background-color: #eee;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+}
+.introduction a{
+    text-decoration: none;
+    color: black;
+}
+.introduction img{
+    width: 30px;
+}
+.login{
+    margin-left: auto;
+    display: flex;
+}
+.detail-box{
+    background-color: wheat;
+    color: black;
+    border-radius: 50px;
+   
+    
+}
+.detail-text{
+    white-space: pre-wrap;
+    padding: 30px;
+}
+.loginfrom {
+    background-color: wheat;
+    padding: 30px;
+    width: 400px;
+    font-size: 20px;
+    margin: 30px auto;
+}
+.price{
+    background-color: rgb(41, 36, 36);
+    border-radius: 10px;
+    max-width: 800px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 20px;
+   
+}
+.price-title {
+    background : linear-gradient(90deg, #E59EDD 30%, #87e2e9 90%);
+    border-radius: 50px;
+    max-height: 50px;
+    height: 100%;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+.price-title h1{
+    margin-left: 30px;
+}
+.price-content{
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px auto;
+}
