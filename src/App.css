@@ -60,11 +60,33 @@
     border-radius: 50px;
     cursor: pointer;
 }
-.App .header {
-    display: flex;
+.header {
     justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    color: #333;
 }
-
+.header p {
+    background: linear-gradient(to right, #42313f, #97126b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    background-clip: text;
+}
+.login{
+    margin-left: auto;
+    margin-right: 100px;
+}
+.login-text{
+    color:black;
+}
+.login-text:hover{
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
 .row-img{
     max-width: 200px;
     max-height: 200px;
@@ -151,10 +173,7 @@
 .introduction img{
     width: 30px;
 }
-.login{
-    margin-left: auto;
-    display: flex;
-}
+
 .detail-box{
     background-color: wheat;
     color: black;
@@ -168,6 +187,7 @@
 }
 .loginfrom {
     background-color: wheat;
+    border-radius: 20px;
     padding: 30px;
     width: 400px;
     font-size: 20px;
@@ -205,4 +225,10 @@
     width: 100%;
     font-size: 18px;
     margin: 10px auto;
+}
+.start{
+    opacity: 0;
+}
+.end{
+    opacity: 1;
 }

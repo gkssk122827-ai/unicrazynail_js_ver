@@ -37,14 +37,15 @@ function App() {
   
   return (
     <div className="App">
-      <div className='header'>
-         <h1>유니 크레이지 네일</h1>
-      </div>
-        <div className='login'>
-          <Nav.Link onClick={()=>{ navigate('/login')}}>로그인</Nav.Link>
+          <div className='login'>
+            <Nav.Link onClick={()=>{ navigate('/login')}}
+              className='but'>
+              로그인
+            </Nav.Link>
+          </div>
+         <div className='header'>
+          <p>유니 크레이지 네일</p>
         </div>
-      
-      
       
         <Navbar bg="dark" variant='dark'>
           <Container>

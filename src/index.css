@@ -35,10 +35,11 @@ code {
   text-align: center;
   cursor: pointer;
   align-items: center;
-  margin: 10px auto;
+  margin: 10px 10px;
   font-size: 15px;
   background-color: black;
   color: white;
+  border-radius: 10px;
 }
 .but:hover{
   color: #50164A;
@@ -52,6 +53,7 @@ code {
   font-size: 20px;
   background-color: black;
   color: white;
+  border-radius: 10px;
 }
 .but2:hover{
   color: #50164A;

@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Introduction from './Introduction';
 import { motion } from 'framer-motion';
 
 const Detail = (props) => {
     let {id:paramId} = useParams();
+    let [fade2, setFade2] = useState('')
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+        let a = setTimeout (()=>{setFade2('end')}, 100);
+        return()=>{
+            setFade2('')
+        }
+    },[])
+
     const productId = parseInt(paramId);
     const selectedItem = props.nail.find(item=>item.id === productId);  
         if (!selectedItem) {
@@ -13,6 +23,7 @@ const Detail = (props) => {
             </div>
         }
     const {imgUrl, title, content, detail } = selectedItem;
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -20,7 +31,7 @@ const Detail = (props) => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
         >
-        <div className='container'>
+        <div className={'container start ' + fade2}>
             <div className='center-wrapper'>
                 <div className='row' style={{margin: '20px'}}>
                     <div className='col-md-6'>

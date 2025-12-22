@@ -8,6 +8,7 @@ import Products from './Products';
 import { useDispatch, useSelector } from 'react-redux';
 import { addBooking } from '../Store';
 import { motion } from 'framer-motion';
+import { BOOKING_TERMS } from './TermsData'; 
 
 
 const Booking = ({nail}) => {
@@ -30,17 +31,19 @@ const getNextBookingNo = () => {
     return maxNo +1;
 }
 
-    const [selectedNail, setSelectedNail] = useState(preselectedImgUrl || "");
-    console.log('이미지 URL:',preselectedImgUrl);
+const [selectedNail, setSelectedNail] = useState(preselectedImgUrl || "");
+console.log('이미지 URL:',preselectedImgUrl);
 
-    const [startDate, setStartDate] = useState(new Date());
-    const [styleInput, setStyleInput] = useState("");
-    const [nailtitle, setnailtitle] = useState("");
-    const [Pnumber, setPnumber] = useState("");
-    const [bookingname, setbookingname] = useState("");
-    const handleChange=(event) => {
-        setSelectedNail(event.target.value);
-    };
+const [startDate, setStartDate] = useState(new Date());
+const [styleInput, setStyleInput] = useState("");
+const [nailtitle, setnailtitle] = useState("");
+const [Pnumber, setPnumber] = useState("");
+const [bookingname, setbookingname] = useState("");
+const handleChange=(event) => {
+    setSelectedNail(event.target.value);
+};
+const [isAgreed, setIsAgreed] = useState(false)
+
 
 useEffect(()=>{
     if (preselectedImgUrl && nail) {
@@ -51,6 +54,10 @@ useEffect(()=>{
 
 
 const BookingSave =() => {
+    const fullMessage = `${BOOKING_TERMS.title}\n\n${BOOKING_TERMS.contents.join('\n')}
+                            \n\n${BOOKING_TERMS.agreementMsg}`
+
+    if (window.confirm(fullMessage)){
     const selectedItem = nail.find(item => item.imgUrl === selectedNail);
     const newBooking= {
         no: getNextBookingNo(),
@@ -65,7 +72,7 @@ const BookingSave =() => {
     dispatch(addBooking(newBooking));
     
     navigate('/bookingList')
-    
+    }
 };
 
 const formatPhoneNumber = (phoneNumber) => {
@@ -171,18 +178,29 @@ const handlePhoneChange = (e) => {
                     </Form.Control>
                 </Form.Group><br/>
                 <Form.Group>
-                    
-                        <Form.Control
-                            type= "text"
-                            value={styleInput}
-                            onChange={(e) => setStyleInput(e.target.value)}
-                            placeholder='원하시는 스타일을 입력해주세요'
-                            >
-                        </Form.Control>
+                    <Form.Control
+                        type= "text"
+                        value={styleInput}
+                        onChange={(e) => setStyleInput(e.target.value)}
+                        placeholder='원하시는 스타일을 입력해주세요'
+                        >
+                    </Form.Control>
                 </Form.Group><br/>
+                <Form.Group className='mb-3' style={{ textAlign: 'left', fontSize: '14px', color: 'white' }}>
+                     <Form.Check
+                        type= "checkbox"
+                        id="agree-check"
+                        label="개인정보 수집 및 예약 규정 안내에 동의 합니다."
+                        checked={isAgreed}
+                        onChange={(e) => setIsAgreed(e.target.checked)}
+                        >
+                    </Form.Check>
+                    <p>* 노쇼 방지를 위해 예약 시간 24시간 전까지만 취소가 가능합니다.</p>               
+                </Form.Group>
                 <div style={{textAlign:"right"}}>
                     <button variant='primary' 
                             onClick={BookingSave} 
+                            disabled={!isAgreed}
                             style={{marginRight: "10px"}}
                             className='but2'
                             >예약완료</button>
