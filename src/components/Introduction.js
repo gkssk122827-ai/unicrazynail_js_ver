@@ -45,13 +45,33 @@ const Introduction = ({price}) => {
                         <div className='price-title'>
                             <h1>GEL/ 젤네일</h1>
                         </div>
-                            <div className='price-content'>
-                                <p>젤 원컬러(오버레이X)</p>
-                                <p>40.0</p>
-                            </div>
-                            <div className='price-content'>
-                                <p>젤 교정 원컬러</p>
-                                <p>80.0</p>
+                            <div className='GEL'>
+                                <div className='Hand'>
+                                    <p>Hand</p>
+                                    <div className='price-content'>
+                                        <p>젤 원컬러(오버레이X)</p>
+                                        <p>40.0</p>
+                                    </div>
+                                    <div className='price-content'>
+                                        <p>젤 교정 원컬러</p>
+                                        <p>80.0</p>
+                                    </div>
+                                </div>
+                                <div className='Foot'>
+                                    <p>Foot</p>
+                                    <div className='price-content'>
+                                        <p>젤 페디 월컬러</p>
+                                        <p>50.0</p>
+                                    </div>
+                                    <div className='price-content'>
+                                        <p>건식 페디케어</p>
+                                        <p>30.0</p>
+                                    </div>
+                                    <div className='price-content'>
+                                        <p>페디스파(스파+케어)</p>
+                                        <p>65.0</p>
+                                    </div>
+                                </div>
                             </div>
                         <div className='price-title'>
                             <h1>Additional Service/ 옵션</h1>

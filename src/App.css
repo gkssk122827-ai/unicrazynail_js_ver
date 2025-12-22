@@ -197,7 +197,6 @@
     background-color: rgb(41, 36, 36);
     border-radius: 10px;
     max-width: 800px;
-    max-height: 800px;
     width: 100%;
     height: 100%;
     margin: 10px auto;
@@ -231,4 +230,23 @@
 }
 .end{
     opacity: 1;
+}
+.GEL{
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #eee;
+}
+.Hand{
+    margin-left: 30px;
+}
+
+.Hand .price-content{
+    margin-left: 30px;
+}
+.Foot{
+    margin: 0 auto;
+}
+.Foot .price-content{
+    margin-left: 30px;
 }
