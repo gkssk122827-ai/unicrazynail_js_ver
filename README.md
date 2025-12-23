@@ -28,3 +28,5 @@
 
 ### ✨ 마무리
 ![마무리](https://github.com/user-attachments/assets/7c525087-4b71-46a7-849a-180cc600e035)
+### 📖 Notion 정리 링크
+![Notion](https://www.notion.so/Hanna-2d13a644d8a480fb9895d1bafeba9726?source=copy_link)
